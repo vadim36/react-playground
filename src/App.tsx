@@ -1,10 +1,13 @@
-import Counter from "./components/Counter"
+import React from "react"
+
+import PostList from "./components/PostList"
+import PostForm from "./components/PostForm"
 
 const App: React.FC = () => {
   return (
     <>
-      <h1 className="text-red-600">Hello world!</h1>
-      <Counter/>
+      {/*<PostForm/>*/}
+      <PostList/>
     </>
   )
 }
