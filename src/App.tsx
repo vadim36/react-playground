@@ -6,7 +6,7 @@ import PostForm from "./components/PostForm"
 const App: React.FC = () => {
   return (
     <>
-      {/*<PostForm/>*/}
+      <PostForm/>
       <PostList/>
     </>
   )

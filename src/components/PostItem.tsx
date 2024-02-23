@@ -1,4 +1,6 @@
 import React from "react"
+import Button from "../UI/Button"
+import { ButtonVariants } from "../utils/enums"
 
 interface PostItemProps {
   key:number,
@@ -18,9 +20,9 @@ const PostItem: React.FC<PostItemProps> = ({postData}) => {
         <p className="text-lg">{body}</p>
       </div>
       <div aria-controls="*">
-        <button>
+        <Button variant={ButtonVariants.danger}>
           Удалить
-        </button>
+        </Button>
       </div>
     </li>
   )
